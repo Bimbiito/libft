@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/15 10:41:07 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/17 16:22:26 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:06:34 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,11 @@
 # include <stddef.h>
 # include <stdio.h>
 # include <unistd.h>
-#include <string.h>
-#include <fcntl.h>
+# include <string.h>
+# include <fcntl.h>
+# include <stdlib.h>
 
-#include "libft.h"
+# include "libft.h"
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -48,9 +49,12 @@ char    **ft_split(char const *s, char c);
 char    *ft_itoa(int n);
 char    *ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void    ft_striteri(char *s, void (*f)(unsigned int, char*));
-int     ft_putchar_fd(char c, int fd);
-int     ft_putstr_fd(char *s, int fd);
-int     ft_putendl_fd(char *s, int fd);
-int     ft_putnbr_fd(int n, int fd);
+void    ft_putchar_fd(char c, int fd);
+void     ft_putstr_fd(char *s, int fd);
+void     ft_putendl_fd(char *s, int fd);
+void     ft_putnbr_fd(int n, int fd);
+size_t	ft_strlcat(char *dest, const char *src, size_t n);
+size_t	ft_strlcpy(char *dest, const char *src, size_t n);
+
 
 #endif

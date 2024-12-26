@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:52:12 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 19:52:12 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:04:07 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,8 +106,8 @@ char	**ft_split(char const *s, char c)
 	}
 	if (*s == 0)
 		return (case_empty());
-		return (filler(s, c));
-	}
+	return (filler(s, c));
+}
     int main(void)
 {
     char **result;
