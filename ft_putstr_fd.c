@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:23:00 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:02:13 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:57:18 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_putstr_fd(char *s, int fd)
         while (s[i])
             write(fd, &s[i++], 1);
 }
-int main(void)
+/*int main(void)
 {
     int fd;
 
@@ -34,4 +34,4 @@ int main(void)
     ft_putstr_fd("Ciao, mondo!", fd);
     close(fd);
     return (0);
-}
+}*/

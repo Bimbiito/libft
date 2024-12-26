@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:50:53 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:13:50 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:52:36 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	*ft_calloc(size_t count, size_t size)
 	return (ptr);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	int *arr;
 	size_t i, n;
@@ -44,4 +44,4 @@ int	main(void)
 
 	free(arr);
 	return (0);
-}
+}*/

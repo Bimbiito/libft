@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:41:33 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:41:33 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 18:00:35 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int     ft_strncmp(const char *s1, const char *s2, size_t n)
     return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
 
-int main(void)
+/*int main(void)
 {
     char *str1 = "Hello";
     char *str2 = "Hello";
@@ -41,5 +41,5 @@ int main(void)
     printf("Comparing '%s' and '%s' (up to 4 chars): %d\n", str1, str4, ft_strncmp(str1, str4, 4));
 
     return 0;
-}
+}*/
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:53:05 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:53:05 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:57:48 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,8 @@ char	*ft_strdup(const char *s1)
     dup[i] = '\0';
     return (dup);
 }
-#include <stdio.h>
 
-int main(void)
+/*int main(void)
 {
     char *str = "Hello, World!";
     char *dup_str;
@@ -53,4 +52,4 @@ int main(void)
     }
 
     return 0;
-}
+}*/

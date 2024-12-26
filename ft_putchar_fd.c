@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:18:12 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 20:18:12 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:56:14 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-int main(void)
+/*int main(void)
 {
     int fd;
 
@@ -34,4 +34,4 @@ int main(void)
     ft_putchar_fd('A', fd);
     close(fd);
     return (0);
-}
+}*/

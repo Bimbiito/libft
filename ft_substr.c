@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 13:55:10 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 13:55:10 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 18:01:08 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char    *ft_substr(char const *s, unsigned int start, size_t len)
 	str[len] = '\0';
 	return (str);
 }
-int main(void)
+/*int main(void)
 {
     char *s = "Hello, world!";
     char *substr;
@@ -53,4 +53,4 @@ int main(void)
     free(substr);
 
     return 0;
-}
+}*/

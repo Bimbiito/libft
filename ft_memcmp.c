@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:41:50 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:41:50 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:53:31 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
     }
     return (0);
 }
-#include <stdio.h>
 
-int main(void)
+/*int main(void)
 {
     char str1[] = "Hello";
     char str2[] = "Hello";
@@ -43,4 +42,4 @@ int main(void)
     printf("Comparing str3 and str1: %d\n", ft_memcmp(str3, str1, n)); // Should return a positive value
 
     return 0;
-}
+}*/

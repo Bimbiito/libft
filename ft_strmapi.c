@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:04:30 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 20:04:30 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:58:38 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[len] = '\0';
 	return (str);
 }
-int	main(void)
+/*int	main(void)
 {
     char	*str;
     char	*result;
@@ -57,4 +57,4 @@ int	main(void)
         printf("FAILED!\n");
     }
     return (0);
-}
+}*/

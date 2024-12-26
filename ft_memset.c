@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/15 13:50:30 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/15 17:16:47 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:56:05 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,11 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	return (ptr);
 }
 
-int main()
+/*int main()
 {
 	char str[50] = "Feliz Navidad Perras";
 	printf("Antes de ft_memset: %s\n", str);
 	ft_memset(str + 6, '*', 10);
 	printf("Después de ft_memset: %s\n", str);
 	return 0;
-}
+}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:47:20 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:47:20 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 18:00:48 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,9 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
     }
     return (NULL);
 }
-#include <stdio.h>
 
-int main(void)
+
+/*int main(void)
 {
     const char haystack[] = "Hello, 42 Madrid students!";
     const char needle[] = "42 Madrid";
@@ -49,4 +49,4 @@ int main(void)
         printf("Not found\n");
 
     return 0;
-}
+}*/

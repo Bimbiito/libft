@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 15:28:57 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/15 16:31:23 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:37:13 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int	ft_isascii(int c)
 	printf("ft_isascii('%c') = %d\n", c, ft_isascii(c));
 	c = 127;
 	printf("ft_isascii('%c') = %d\n", c, ft_isascii(c));
-	return 0;
+	return (0);
 }*/

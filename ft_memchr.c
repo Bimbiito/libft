@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:44:35 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:44:35 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:53:04 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
     }
     return (NULL);
 }
-int main()
+/*int main()
 {
     const char str[] = "Hello, world!";
     char ch = 'w';
@@ -46,4 +46,4 @@ int main()
     }
 
     return 0;
-}
+}*/

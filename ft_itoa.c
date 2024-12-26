@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:58:28 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 19:58:28 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 17:52:54 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ char	*ft_itoa(int n)
 }
 
 
-int main(void)
+/*int main(void)
 {
     int test_values[] = {0, -123, 456, -2147483648, 2147483647};
     char *result;
@@ -79,4 +79,4 @@ int main(void)
         }
     }
     return 0;
-}
+}*/

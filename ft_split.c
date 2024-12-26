@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:52:12 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:04:07 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:53:50 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,7 @@ char	**ft_split(char const *s, char c)
 		return (case_empty());
 	return (filler(s, c));
 }
-    int main(void)
+/*   int main(void)
 {
     char **result;
     int i;
@@ -138,4 +138,4 @@ char	**ft_split(char const *s, char c)
     }
 
     return 0;
-}
+}*/
