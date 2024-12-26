@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:28:33 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:56:22 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:23:16 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ void	ft_putendl_fd(char *s, int fd)
 }
 /*int	main(void)
 {
-    ft_putendl_fd("Hello, world!", 1);
-    return (0);
+	ft_putendl_fd("Hello, world!", 1);
+	return (0);
 }*/

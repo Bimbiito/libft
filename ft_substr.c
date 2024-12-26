@@ -6,17 +6,17 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 13:55:10 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 18:01:08 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:23:33 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char		*str;
-	size_t		s_len;
-	size_t		max_len;
+	char	*str;
+	size_t	s_len;
+	size_t	max_len;
 
 	if (!s)
 		return (NULL);
@@ -35,22 +35,22 @@ char    *ft_substr(char const *s, unsigned int start, size_t len)
 }
 /*int main(void)
 {
-    char *s = "Hello, world!";
-    char *substr;
+	char *s = "Hello, world!";
+	char *substr;
 
    //lo casos avanzan de inicio medio y fuera de rango
-    substr = ft_substr(s, 0, 5);
-    printf("Subcadena (0, 5): %s\n", substr);
-    free(substr);
+	substr = ft_substr(s, 0, 5);
+	printf("Subcadena (0, 5): %s\n", substr);
+	free(substr);
 
-    substr = ft_substr(s, 7, 5);
-    printf("Subcadena (7, 5): %s\n", substr);
-    free(substr);
+	substr = ft_substr(s, 7, 5);
+	printf("Subcadena (7, 5): %s\n", substr);
+	free(substr);
 
-    
-    substr = ft_substr(s, 20, 5);
-    printf("Subcadena (20, 5): %s\n", substr);
-    free(substr);
 
-    return 0;
+	substr = ft_substr(s, 20, 5);
+	printf("Subcadena (20, 5): %s\n", substr);
+	free(substr);
+
+	return (0);
 }*/

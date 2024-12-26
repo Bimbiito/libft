@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:50:15 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 18:00:59 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:23:38 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,21 +29,21 @@ char	*ft_strtrim(char const *s1, char const *set)
 }
 /*int main(void)
 {
-    char *s1 = "  Hello World  ";
-    char *set = " ";
-    char *trimmed_str;
+	char *s1 = "  Hello World  ";
+	char *set = " ";
+	char *trimmed_str;
 
-    trimmed_str = ft_strtrim(s1, set);
-    if (trimmed_str)
-    {
-        printf("Original string: '%s'\n", s1);
-        printf("Trimmed string: '%s'\n", trimmed_str);
-        free(trimmed_str);
-    }
-    else
-    {
-        printf("Trimming failed.\n");
-    }
+	trimmed_str = ft_strtrim(s1, set);
+	if (trimmed_str)
+	{
+		printf("Original string: '%s'\n", s1);
+		printf("Trimmed string: '%s'\n", trimmed_str);
+		free(trimmed_str);
+	}
+	else
+	{
+		printf("Trimming failed.\n");
+	}
 
-    return 0;
+	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:04:30 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:58:38 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:06 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,20 +41,20 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 }
 /*int	main(void)
 {
-    char	*str;
-    char	*result;
+	char	*str;
+	char	*result;
 
-    str = "HOLA MUNDO!";
-    result = ft_strmapi(str, map_function);
-    if (result)
-    {
-        printf("Original: %s\n", str);
-        printf("Modified: %s\n", result);
-        free(result);
-    }
-    else
-    {
-        printf("FAILED!\n");
-    }
-    return (0);
+	str = "HOLA MUNDO!";
+	result = ft_strmapi(str, map_function);
+	if (result)
+	{
+		printf("Original: %s\n", str);
+		printf("Modified: %s\n", result);
+		free(result);
+	}
+	else
+	{
+		printf("FAILED!\n");
+	}
+	return (0);
 }*/

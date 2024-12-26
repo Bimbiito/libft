@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:46:30 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:58:23 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:26 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,19 +25,19 @@ char	*ft_strjoin(char const *s1, char const *s2)
 }
 /*int main(void)
 {
-    char *s1 = "Ciao, ";
-    char *s2 = "mondo!";
-    char *result;
+	char *s1 = "Ciao, ";
+	char *s2 = "mondo!";
+	char *result;
 
-    result = ft_strjoin(s1, s2);
-    if (result)
-    {
-        printf("%s\n", result);
-        free(result);
-    }
-    else
-    {
-        printf("Allocazione di memoria fallita\n");
-    }
-    return 0;
+	result = ft_strjoin(s1, s2);
+	if (result)
+	{
+		printf("%s\n", result);
+		free(result);
+	}
+	else
+	{
+		printf("Allocazione di memoria fallita\n");
+	}
+	return (0);
 }*/

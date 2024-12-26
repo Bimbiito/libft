@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:09:32 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 17:58:09 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:25:50 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,16 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
 void	print_indexed_char(unsigned int i, char *c)
 {
-    printf("Index %u: %c\n", i, *c);
+	printf("Index %u: %c\n", i, *c);
 }
 
 /*int	main(void)
 {
-    char	str[] = "Hola mundo!";
-    
-    ft_striteri(str, print_indexed_char);
-    return (0);
+	char	str[] = "Hola mundo!";
+
+	ft_striteri(str, print_indexed_char);
+	return (0);
 }*/

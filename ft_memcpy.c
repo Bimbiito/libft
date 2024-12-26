@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/15 16:12:17 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/26 17:55:44 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:59:14 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (!dest || !src)
-	{
-		return (NULL);
-	}
+	if (n == 0)
+		return (dest);
 	while (i < n)
 	{
 		((unsigned char *)dest)[i] = ((const unsigned char *)src)[i];
@@ -28,13 +26,13 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/*int	main(void)
+/*
+int	main(void)
 {
 	const char	src[20] = "Hola Mundo";
 
-	char dest[20] = {0}; // Inicializa el destino con ceros
-	ft_memcpy(dest, src, 10);
+	char dest[20] = "Hola mundo"; // Inicializa el destino con ceros
+	ft_memcpy(dest, src, 3);
 	printf("Resultado de ft_memcpy: %s\n", dest);
 	return (0);
 }*/

@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:34:35 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 18:49:01 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 20:04:22 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strchr(const char *s, int c)
 {
 	while (*s != '\0')
 	{
-		if (*s == (char)c)
+		if ((unsigned char)*s == (unsigned char)c)
 		{
 			return ((char *)s);
 		}

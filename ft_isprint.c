@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 15:34:23 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/15 16:30:04 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:22:19 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int	ft_isprint(int c)
 	printf("ft_isprint('%c') = %d\n", c, ft_isprint(c));
 	c = '~';
 	printf("ft_isprint('%c') = %d\n", c, ft_isprint(c));
-	return 0;
+	return (0);
 }*/
