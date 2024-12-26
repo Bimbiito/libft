@@ -59,7 +59,7 @@ char	*ft_itoa(int n)
 }
 
 
-int main(void)
+/*int main(void)
 {
     int test_values[] = {0, -123, 456, -2147483648, 2147483647};
     char *result;
@@ -79,4 +79,4 @@ int main(void)
         }
     }
     return 0;
-}
+}*/

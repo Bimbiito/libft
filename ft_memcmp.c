@@ -31,16 +31,16 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 }
 #include <stdio.h>
 
-int main(void)
+/*int main(void)
 {
     char str1[] = "Hello";
     char str2[] = "Hello";
     char str3[] = "Hellp";
     size_t n = 5;
 
-    printf("Comparing str1 and str2: %d\n", ft_memcmp(str1, str2, n)); // Should return 0
-    printf("Comparing str1 and str3: %d\n", ft_memcmp(str1, str3, n)); // Should return a negative value
-    printf("Comparing str3 and str1: %d\n", ft_memcmp(str3, str1, n)); // Should return a positive value
+    printf("Comparing str1 and str2: %d\n", ft_memcmp(str1, str2, n)); // retorna 0
+    printf("Comparing str1 and str3: %d\n", ft_memcmp(str1, str3, n)); // retorna valor negativo
+    printf("Comparing str3 and str1: %d\n", ft_memcmp(str3, str1, n)); // Retorna valor positivo
 
     return 0;
-}
+}*/

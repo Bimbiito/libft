@@ -1,13 +1,13 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-SRCS = $(wildcard /C:\Users\Fatima\Documents\SOLO CODIGO\42Madrid\libft\repositorio github\libft-pruebas/*.c) 
+SRCS = $(wildcard /*.c) //añadir path correcta (ruta de archivos)
 OBJS = $(SRCS:.c=.o)
 NAME = libft.a
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $(NAME) # Línea de compilación correcta
+	$(CC) $(CFLAGS) $(OBJS) -o $(NAME) 
 
 clean:
 	rm -f $(OBJS)

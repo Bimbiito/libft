@@ -29,7 +29,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
     }
     return (NULL);
 }
-int main()
+/*int main()
 {
     const char str[] = "Hello, world!";
     char ch = 'w';
@@ -46,4 +46,4 @@ int main()
     }
 
     return 0;
-}
+}*/
