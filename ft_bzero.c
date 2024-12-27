@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/15 15:33:40 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/15 17:21:27 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 17:36:23 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,5 @@ void	ft_bzero(void *s, size_t n)
 	printf("Antes de ft_bzero: %s\n", str);
 	ft_bzero(str + 5, 10);
 	printf("Despues de ft_bzero: %s\n", str);
-	return 0;
+	return (0);
 }*/

@@ -3,28 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:23:00 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 20:23:00 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:48 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr_fd(char const *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
-    int		i;
+	int	i;
 
-    i = 0;
-    if (s)
-        while (s[i])
-            write(fd, &s[i++], 1);
+	i = 0;
+	if (s)
+		while (s[i])
+			write(fd, &s[i++], 1);
 }
 /*int main(void)
 {
-    int fd;
+	int fd;
 
+<<<<<<< HEAD
     fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
     if (fd == -1)
     {
@@ -34,4 +35,15 @@ void	ft_putstr_fd(char const *s, int fd)
     ft_putstr_fd("Ciao, mondo!", fd);
     close(fd);
     return (0);
+=======
+	fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+	if (fd == -1)
+	{
+		perror("Error opening file");
+		return (1);
+	}
+	ft_putstr_fd("Ciao, mondo!", fd);
+	close(fd);
+	return (0);
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

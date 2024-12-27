@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:31:19 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 20:31:19 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:53 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,14 @@ void	ft_putnbr_fd(int n, int fd)
 }
 /*int main(void)
 {
-    int number = -12345;
-    int fd = 1; 
+	int number = -12345;
+	int fd = 1;
 
+<<<<<<< HEAD
     ft_putnbr_fd(number, fd);
     return 0;
+=======
+	ft_putnbr_fd(number, fd);
+	return (0);
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/17 10:28:27 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/17 12:58:09 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:19 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,11 @@
 
 size_t	ft_strlcpy(char *dest, const char *src, size_t n)
 {
-	size_t	i = 0;
-	size_t	len_src = 0;
+	size_t	i;
+	size_t	len_src;
 
+	i = 0;
+	len_src = 0;
 	while (src[len_src] != '\0')
 	{
 		len_src++;

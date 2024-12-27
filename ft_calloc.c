@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:50:53 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/24 22:50:53 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 19:21:07 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,35 +14,44 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-    void	*ptr;
-    size_t	total_size;
+	void	*ptr;
+	size_t	total_size;
 
-    total_size = count * size;
-    ptr = malloc(total_size);
-    if (!ptr)
-        return (NULL);
-    ft_bzero(ptr, total_size);
-    return (ptr);
+	total_size = count * size;
+	ptr = malloc(total_size);
+	if (!ptr)
+		return (NULL);
+	ft_bzero(ptr, total_size);
+	return (ptr);
 }
 
+<<<<<<< HEAD
 
 /*int main(void)
+=======
+/*int	main(void)
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
-    int *arr;
-    size_t i, n;
+	int *arr;
+	size_t i, n;
 
-    n = 10;
-    arr = (int *)ft_calloc(n, sizeof(int));
-    if (!arr)
-    {
-        printf("Memory allocation failed\n");
-        return (1);
-    }
+	n = 10;
+	arr = (int *)ft_calloc(n, sizeof(int));
+	if (!arr)
+	{
+		printf("Memory allocation failed\n");
+		return (1);
+	}
 
-    for (i = 0; i < n; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
+	for (i = 0; i < n; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
 
+<<<<<<< HEAD
     free(arr);
     return (0);
+=======
+	free(arr);
+	return (0);
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

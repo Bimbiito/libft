@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 20:09:32 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 20:09:32 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 19:25:50 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,27 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+<<<<<<< HEAD
 /*void	print_indexed_char(unsigned int i, char *c)
+=======
+
+void	print_indexed_char(unsigned int i, char *c)
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
-    printf("Index %u: %c\n", i, *c);
+	printf("Index %u: %c\n", i, *c);
 }
 
-int	main(void)
+/*int	main(void)
 {
+<<<<<<< HEAD
     char	str[] = "Hola mundo!";
     
     ft_striteri(str, print_indexed_char);
     return (0);
+=======
+	char	str[] = "Hola mundo!";
+
+	ft_striteri(str, print_indexed_char);
+	return (0);
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

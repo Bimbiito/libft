@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:52:12 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/25 19:52:12 by marvin           ###   ########.fr       */
+/*   Updated: 2024/12/26 19:24:45 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,16 @@
 
 static int	occurrences(char const *s, char c)
 {
-	int		index;
-	int		res;
+	int	index;
+	int	res;
 
 	index = 0;
 	res = 0;
 	while (s[index])
 	{
-		if (s[index] == c && s[index +1] && s[index +1] != c)
-			res ++;
-		index ++;
+		if (s[index] == c && s[index + 1] && s[index + 1] != c)
+			res++;
+		index++;
 	}
 	return (res);
 }
@@ -36,14 +36,14 @@ static char	*splitter(char const *s, int index, char c)
 
 	while (*s && index > 0)
 	{
-		if (*s == c && *(s +1) != c)
-			index --;
+		if (*s == c && *(s + 1) != c)
+			index--;
 		s++;
 	}
 	count = 0;
 	while (s[count] && s[count] != c)
-		count ++;
-	res = (char *)malloc(count +1);
+		count++;
+	res = (char *)malloc(count + 1);
 	if (res == 0)
 		return (NULL);
 	res[count] = 0;
@@ -51,7 +51,7 @@ static char	*splitter(char const *s, int index, char c)
 	while (count > count2)
 	{
 		res[count2] = s[count2];
-		count2 ++;
+		count2++;
 	}
 	return (res);
 }
@@ -63,7 +63,7 @@ static char	**filler(char const *s, char c)
 	int		index;
 
 	nseg = occurrences(s, c) + 1;
-	res = (char **)malloc((nseg +1) * sizeof(char *));
+	res = (char **)malloc((nseg + 1) * sizeof(char *));
 	if (res == 0)
 		return (0);
 	res[nseg] = 0;
@@ -75,10 +75,10 @@ static char	**filler(char const *s, char c)
 		{
 			while (index-- > 0)
 				free(res[index]);
-			free (res);
+			free(res);
 			return (0);
 		}
-		index ++;
+		index++;
 	}
 	return (res);
 }
@@ -102,40 +102,50 @@ char	**ft_split(char const *s, char c)
 	{
 		if (*s == 0)
 			return (case_empty());
-		s ++;
+		s++;
 	}
 	if (*s == 0)
 		return (case_empty());
+<<<<<<< HEAD
 		return (filler(s, c));
 	}
     /*int main(void)
+=======
+	return (filler(s, c));
+}
+/*   int main(void)
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
-    char **result;
-    int i;
+	char **result;
+	int i;
 
-    // Caso de prueba: dividir una cadena por espacios
-    result = ft_split("Hola mundo esto es una prueba", ' ');
-    if (result)
-    {
-        for (i = 0; result[i] != NULL; i++)
-        {
-            printf("Subcadena %d: %s\n", i, result[i]);
-            free(result[i]);
-        }
-        free(result);
-    }
+	// Caso de prueba: dividir una cadena por espacios
+	result = ft_split("Hola mundo esto es una prueba", ' ');
+	if (result)
+	{
+		for (i = 0; result[i] != NULL; i++)
+		{
+			printf("Subcadena %d: %s\n", i, result[i]);
+			free(result[i]);
+		}
+		free(result);
+	}
 
-    // Caso de prueba: dividir una cadena por comas
-    result = ft_split("Hola,mundo,esto,es,una,prueba", ',');
-    if (result)
-    {
-        for (i = 0; result[i] != NULL; i++)
-        {
-            printf("Subcadena %d: %s\n", i, result[i]);
-            free(result[i]);
-        }
-        free(result);
-    }
+	// Caso de prueba: dividir una cadena por comas
+	result = ft_split("Hola,mundo,esto,es,una,prueba", ',');
+	if (result)
+	{
+		for (i = 0; result[i] != NULL; i++)
+		{
+			printf("Subcadena %d: %s\n", i, result[i]);
+			free(result[i]);
+		}
+		free(result);
+	}
 
+<<<<<<< HEAD
     return 0;
+=======
+	return (0);
+>>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

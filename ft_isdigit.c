@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 15:15:31 by fgallard          #+#    #+#             */
-/*   Updated: 2024/12/15 16:31:40 by fgallard         ###   ########.fr       */
+/*   Updated: 2024/12/26 19:22:15 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ int	ft_isdigit(int c)
 	printf("ft_isdigit('%c') = %d\n", c, ft_isdigit(c));
 	c = '9';
 	printf("ft_isdigit('%c') = %d\n", c, ft_isdigit(c));
-	return 0;
+	return (0);
 }*/
