@@ -37,7 +37,7 @@ int     ft_atoi(const char *str)
     return (result *sign);
 }
 
-int main(void)
+/*int main(void)
 {
     const char *str1 = "   -1234";
     const char *str2 = "42";
@@ -52,5 +52,5 @@ int main(void)
     printf("String: '%s' -> Integer: %d\n", str5, ft_atoi(str5));
 
     return 0;
-}
+}*/
 

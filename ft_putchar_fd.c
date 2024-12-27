@@ -10,10 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
 
 #include "libft.h"
 
@@ -21,7 +17,7 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-int main(void)
+/*int main(void)
 {
     int fd;
 
@@ -34,4 +30,4 @@ int main(void)
     ft_putchar_fd('A', fd);
     close(fd);
     return (0);
-}
+}*/

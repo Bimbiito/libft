@@ -27,7 +27,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		start++;
 	return (ft_substr(s1, start, end - start));
 }
-int main(void)
+/*int main(void)
 {
     char *s1 = "  Hello World  ";
     char *set = " ";
@@ -46,4 +46,4 @@ int main(void)
     }
 
     return 0;
-}
+}*/

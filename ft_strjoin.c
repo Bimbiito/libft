@@ -23,7 +23,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(dst, s2, ft_strlen(s2) + ft_strlen(s1) + 1);
 	return (dst);
 }
-int main(void)
+/*int main(void)
 {
     char *s1 = "Ciao, ";
     char *s2 = "mondo!";
@@ -40,4 +40,4 @@ int main(void)
         printf("Allocazione di memoria fallita\n");
     }
     return 0;
-}
+}*/

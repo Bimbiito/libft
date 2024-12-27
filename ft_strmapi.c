@@ -39,7 +39,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[len] = '\0';
 	return (str);
 }
-int	main(void)
+/*int	main(void)
 {
     char	*str;
     char	*result;
@@ -57,4 +57,4 @@ int	main(void)
         printf("FAILED!\n");
     }
     return (0);
-}
+}*/

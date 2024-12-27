@@ -21,7 +21,7 @@ void	ft_putstr_fd(char const *s, int fd)
         while (s[i])
             write(fd, &s[i++], 1);
 }
-int main(void)
+/*int main(void)
 {
     int fd;
 
@@ -34,4 +34,4 @@ int main(void)
     ft_putstr_fd("Ciao, mondo!", fd);
     close(fd);
     return (0);
-}
+}*/

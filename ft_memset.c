@@ -29,11 +29,11 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	return (ptr);
 }
 
-int main()
+/*int main()
 {
 	char str[50] = "Feliz Navidad Perras";
 	printf("Antes de ft_memset: %s\n", str);
 	ft_memset(str + 6, '*', 10);
 	printf("Después de ft_memset: %s\n", str);
 	return 0;
-}
+}*/

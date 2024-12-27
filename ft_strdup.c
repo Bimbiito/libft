@@ -33,9 +33,9 @@ char	*ft_strdup(const char *s1)
     dup[i] = '\0';
     return (dup);
 }
-#include <stdio.h>
 
-int main(void)
+
+/*int main(void)
 {
     char *str = "Hello, World!";
     char *dup_str;
@@ -53,4 +53,4 @@ int main(void)
     }
 
     return 0;
-}
+}*/

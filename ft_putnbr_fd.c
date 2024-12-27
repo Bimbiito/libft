@@ -30,11 +30,11 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(copia + '0', fd);
 }
-int main(void)
+/*int main(void)
 {
     int number = -12345;
     int fd = 1; 
 
     ft_putnbr_fd(number, fd);
     return 0;
-}
+}*/

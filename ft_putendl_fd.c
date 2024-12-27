@@ -20,8 +20,8 @@ void	ft_putendl_fd(char *s, int fd)
 	ft_putstr_fd(str, fd);
 	free(str);
 }
-int	main(void)
+/*int	main(void)
 {
     ft_putendl_fd("Hello, world!", 1);
     return (0);
-}
+}*/

@@ -25,7 +25,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-void	print_indexed_char(unsigned int i, char *c)
+/*void	print_indexed_char(unsigned int i, char *c)
 {
     printf("Index %u: %c\n", i, *c);
 }
@@ -36,4 +36,4 @@ int	main(void)
     
     ft_striteri(str, print_indexed_char);
     return (0);
-}
+}*/

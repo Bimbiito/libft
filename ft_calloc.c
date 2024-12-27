@@ -24,9 +24,9 @@ void	*ft_calloc(size_t count, size_t size)
     ft_bzero(ptr, total_size);
     return (ptr);
 }
-#include <stdio.h>
 
-int main(void)
+
+/*int main(void)
 {
     int *arr;
     size_t i, n;
@@ -45,4 +45,4 @@ int main(void)
 
     free(arr);
     return (0);
-}
+}*/

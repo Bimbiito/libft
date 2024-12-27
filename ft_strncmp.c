@@ -28,7 +28,7 @@ int     ft_strncmp(const char *s1, const char *s2, size_t n)
     return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
 
-int main(void)
+/*int main(void)
 {
     char *str1 = "Hello";
     char *str2 = "Hello";
@@ -40,6 +40,5 @@ int main(void)
     printf("Comparing '%s' and '%s' (up to 5 chars): %d\n", str1, str4, ft_strncmp(str1, str4, 5));
     printf("Comparing '%s' and '%s' (up to 4 chars): %d\n", str1, str4, ft_strncmp(str1, str4, 4));
 
-    return 0;
-}
-
+     return 0;
+}*/

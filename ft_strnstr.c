@@ -33,8 +33,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
     }
     return (NULL);
 }
-#include <stdio.h>
-
+/*
 int main(void)
 {
     const char haystack[] = "Hello, 42 Madrid students!";
@@ -49,4 +48,4 @@ int main(void)
         printf("Not found\n");
 
     return 0;
-}
+}*/

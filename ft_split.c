@@ -108,7 +108,7 @@ char	**ft_split(char const *s, char c)
 		return (case_empty());
 		return (filler(s, c));
 	}
-    int main(void)
+    /*int main(void)
 {
     char **result;
     int i;
@@ -138,4 +138,4 @@ char	**ft_split(char const *s, char c)
     }
 
     return 0;
-}
+}*/
