@@ -33,11 +33,6 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 /*int main(void)
 {
 	char *str = "Hello, World!";
@@ -55,9 +50,5 @@ char	*ft_strdup(const char *s1)
 		printf("Memory allocation failed\n");
 	}
 
-<<<<<<< HEAD
     return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

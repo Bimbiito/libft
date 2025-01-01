@@ -35,9 +35,5 @@ void	*ft_memset(void *ptr, int value, size_t num)
 	printf("Antes de ft_memset: %s\n", str);
 	ft_memset(str + 6, '*', 10);
 	printf("Después de ft_memset: %s\n", str);
-<<<<<<< HEAD
 	return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

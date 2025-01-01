@@ -25,7 +25,6 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	int fd;
 
-<<<<<<< HEAD
     fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
     if (fd == -1)
     {
@@ -35,15 +34,4 @@ void	ft_putstr_fd(char *s, int fd)
     ft_putstr_fd("Ciao, mondo!", fd);
     close(fd);
     return (0);
-=======
-	fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
-	if (fd == -1)
-	{
-		perror("Error opening file");
-		return (1);
-	}
-	ft_putstr_fd("Ciao, mondo!", fd);
-	close(fd);
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

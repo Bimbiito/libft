@@ -106,15 +106,12 @@ char	**ft_split(char const *s, char c)
 	}
 	if (*s == 0)
 		return (case_empty());
-<<<<<<< HEAD
 		return (filler(s, c));
 	}
     /*int main(void)
-=======
 	return (filler(s, c));
 }
 /*   int main(void)
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
 	char **result;
 	int i;
@@ -143,9 +140,5 @@ char	**ft_split(char const *s, char c)
 		free(result);
 	}
 
-<<<<<<< HEAD
     return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

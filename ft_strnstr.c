@@ -34,13 +34,8 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-<<<<<<< HEAD
 /*
 int main(void)
-=======
-
-/*int main(void)
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
 	const char haystack[] = "Hello, 42 Madrid students!";
 	const char needle[] = "42 Madrid";
@@ -53,9 +48,5 @@ int main(void)
 	else
 		printf("Not found\n");
 
-<<<<<<< HEAD
     return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

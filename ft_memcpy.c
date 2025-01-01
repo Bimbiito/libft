@@ -26,22 +26,13 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-<<<<<<< HEAD
 
 /*int main()
-=======
-/*
-int	main(void)
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
 	const char	src[20] = "Hola Mundo";
 
 	char dest[20] = "Hola mundo"; // Inicializa el destino con ceros
 	ft_memcpy(dest, src, 3);
 	printf("Resultado de ft_memcpy: %s\n", dest);
-<<<<<<< HEAD
 	return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

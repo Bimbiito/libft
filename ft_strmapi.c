@@ -44,7 +44,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	char	*str;
 	char	*result;
 
-<<<<<<< HEAD
     str = "HOLA MUNDO!";
     result = ft_strmapi(str, map_function);
     if (result)
@@ -58,7 +57,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
         printf("FAILED!\n");
     }
     return (0);
-=======
 	str = "HOLA MUNDO!";
 	result = ft_strmapi(str, map_function);
 	if (result)
@@ -72,5 +70,4 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 		printf("FAILED!\n");
 	}
 	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

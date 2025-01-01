@@ -48,13 +48,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	free(substr);
 
 
-<<<<<<< HEAD
     return 0;
-=======
-	substr = ft_substr(s, 20, 5);
-	printf("Subcadena (20, 5): %s\n", substr);
-	free(substr);
-
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

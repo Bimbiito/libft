@@ -22,11 +22,6 @@ void	ft_putendl_fd(char *s, int fd)
 }
 /*int	main(void)
 {
-<<<<<<< HEAD
     ft_putendl_fd("Hello, world!", 1);
     return (0);
-=======
-	ft_putendl_fd("Hello, world!", 1);
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

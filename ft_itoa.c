@@ -58,17 +58,12 @@ char	*ft_itoa(int n)
 	return (c);
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 /*int main(void)
 {
 	int test_values[] = {0, -123, 456, -2147483648, 2147483647};
 	char *result;
 	size_t i;
 
-<<<<<<< HEAD
     for (i = 0; i < sizeof(test_values) / sizeof(test_values[0]); i++)
     {
         result = ft_itoa(test_values[i]);
@@ -83,20 +78,4 @@ char	*ft_itoa(int n)
         }
     }
     return 0;
-=======
-	for (i = 0; i < sizeof(test_values) / sizeof(test_values[0]); i++)
-	{
-		result = ft_itoa(test_values[i]);
-		if (result)
-		{
-			printf("ft_itoa(%d) = %s\n", test_values[i], result);
-			free(result);
-		}
-		else
-		{
-			printf("ft_itoa(%d) failed to allocate memory\n", test_values[i]);
-		}
-	}
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

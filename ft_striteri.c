@@ -25,27 +25,19 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-<<<<<<< HEAD
 /*void	print_indexed_char(unsigned int i, char *c)
-=======
-
-void	print_indexed_char(unsigned int i, char *c)
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
 	printf("Index %u: %c\n", i, *c);
-}
+}*/
 
 /*int	main(void)
 {
-<<<<<<< HEAD
     char	str[] = "Hola mundo!";
     
     ft_striteri(str, print_indexed_char);
     return (0);
-=======
 	char	str[] = "Hola mundo!";
 
 	ft_striteri(str, print_indexed_char);
 	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

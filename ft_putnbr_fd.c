@@ -35,11 +35,6 @@ void	ft_putnbr_fd(int n, int fd)
 	int number = -12345;
 	int fd = 1;
 
-<<<<<<< HEAD
     ft_putnbr_fd(number, fd);
     return 0;
-=======
-	ft_putnbr_fd(number, fd);
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

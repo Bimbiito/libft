@@ -45,9 +45,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 		printf("Character '%c' not found.\n", ch);
 	}
 
-<<<<<<< HEAD
     return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

@@ -25,12 +25,8 @@ void	*ft_calloc(size_t count, size_t size)
 	return (ptr);
 }
 
-<<<<<<< HEAD
 
 /*int main(void)
-=======
-/*int	main(void)
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 {
 	int *arr;
 	size_t i, n;
@@ -47,11 +43,6 @@ void	*ft_calloc(size_t count, size_t size)
 		printf("%d ", arr[i]);
 	printf("\n");
 
-<<<<<<< HEAD
     free(arr);
     return (0);
-=======
-	free(arr);
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

@@ -45,9 +45,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		printf("Trimming failed.\n");
 	}
 
-<<<<<<< HEAD
     return 0;
-=======
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/

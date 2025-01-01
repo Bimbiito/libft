@@ -29,7 +29,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char *s2 = "mondo!";
 	char *result;
 
-<<<<<<< HEAD
     result = ft_strjoin(s1, s2);
     if (result)
     {
@@ -41,17 +40,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
         printf("Allocazione di memoria fallita\n");
     }
     return 0;
-=======
-	result = ft_strjoin(s1, s2);
-	if (result)
-	{
-		printf("%s\n", result);
-		free(result);
-	}
-	else
-	{
-		printf("Allocazione di memoria fallita\n");
-	}
-	return (0);
->>>>>>> dbb36111f6526d59ed26b16d6405ec72bdacc0fe
 }*/
