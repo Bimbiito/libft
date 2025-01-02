@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 22:50:53 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 19:21:07 by fgallard         ###   ########.fr       */
+/*   Updated: 2025/01/02 17:53:30 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ void	*ft_calloc(size_t count, size_t size)
 	return (ptr);
 }
 
-
 /*int main(void)
 {
 	int *arr;
@@ -43,6 +42,6 @@ void	*ft_calloc(size_t count, size_t size)
 		printf("%d ", arr[i]);
 	printf("\n");
 
-    free(arr);
-    return (0);
+	free(arr);
+	return (0);
 }*/
