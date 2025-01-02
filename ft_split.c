@@ -6,7 +6,7 @@
 /*   By: fgallard <fgallard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/25 19:52:12 by marvin            #+#    #+#             */
-/*   Updated: 2024/12/26 19:24:45 by fgallard         ###   ########.fr       */
+/*   Updated: 2025/01/02 17:58:14 by fgallard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,39 +106,39 @@ char	**ft_split(char const *s, char c)
 	}
 	if (*s == 0)
 		return (case_empty());
-		return (filler(s, c));
-	}
-    /*int main(void)
 	return (filler(s, c));
+}
+/*int main(void)
+return (filler(s, c));
 }
 /*   int main(void)
 {
-	char **result;
-	int i;
+char		**result;
+int			i;
 
-	// Caso de prueba: dividir una cadena por espacios
-	result = ft_split("Hola mundo esto es una prueba", ' ');
-	if (result)
+// Caso de prueba: dividir una cadena por espacios
+result = ft_split("Hola mundo esto es una prueba", ' ');
+if (result)
+{
+	for (i = 0; result[i] != NULL; i++)
 	{
-		for (i = 0; result[i] != NULL; i++)
-		{
-			printf("Subcadena %d: %s\n", i, result[i]);
-			free(result[i]);
-		}
-		free(result);
+		printf("Subcadena %d: %s\n", i, result[i]);
+		free(result[i]);
 	}
+	free(result);
+}
 
-	// Caso de prueba: dividir una cadena por comas
-	result = ft_split("Hola,mundo,esto,es,una,prueba", ',');
-	if (result)
+// Caso de prueba: dividir una cadena por comas
+result = ft_split("Hola,mundo,esto,es,una,prueba", ',');
+if (result)
+{
+	for (i = 0; result[i] != NULL; i++)
 	{
-		for (i = 0; result[i] != NULL; i++)
-		{
-			printf("Subcadena %d: %s\n", i, result[i]);
-			free(result[i]);
-		}
-		free(result);
+		printf("Subcadena %d: %s\n", i, result[i]);
+		free(result[i]);
 	}
+	free(result);
+}
 
-    return 0;
+return (0);
 }*/
